@@ -1,0 +1,124 @@
+@media (max-width: 665px) {
+  .ios-button {
+    margin-inline-end: 0;
+    margin-block-end: 2rem;
+    padding: 1rem 6rem;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 1338px) {
+  .second-section {
+    gap: 3rem;
+  }
+
+  .computer-image {
+    width: 35rem;
+  }
+
+  .fifth-section {
+    grid: none;
+  }
+}
+
+@media (max-width: 1072px) {
+  .second-section {
+    gap: 3rem;
+  }
+
+  .second-header-container {
+    gap: 3rem;
+  }
+
+  .workflow-icons {
+    grid: none;
+  }
+}
+
+@media (max-width: 926px) {
+  .second-section {
+    grid-template-columns: none;
+    justify-items: center;
+  }
+
+  .second-section-header {
+    text-align: center;
+  }
+
+  .second-section-body {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1231px) {
+  .second-phase {
+    margin-inline-start: 5rem;
+    margin-inline-end: 5rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .second-phase{
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+}
+
+@media (max-width: 1331px) {
+  .devices-image {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 939px) {
+  .devices-image {
+    width: 35rem;
+  }
+}
+
+
+@media (max-width: 766px) {
+  .devices-image {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1095px) {
+  .seventh-section {
+    padding: 3rem 5rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .seventh-section {
+    padding: 3rem 3rem;
+    grid-template-columns: none;
+    justify-items: center;
+  }
+
+  .footer-second-section {
+    grid-template-columns: none;
+    justify-items: center;
+    margin-block-end: 1rem;
+  }
+
+  .huddle-logo-footer {
+    margin-block-end: 2rem;
+  }
+
+  .footer-container {
+    margin-block-end: 1rem;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .footer-text-1 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+p,
+h1,
+h2,
+h3,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Bai Jamjuree;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+
+body {
+  background-image: url(/image-container/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: grid;
+  align-items: center;
+}
+
+/*media quary for body*/
+@media (max-width: 600px) {
+  body {
+    background: url(/image-container/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
