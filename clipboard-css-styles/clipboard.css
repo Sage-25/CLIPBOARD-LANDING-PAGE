@@ -41,6 +41,12 @@
   font-weight: 600;
   box-shadow: 0 0.2rem 0 hsl(171, 68%, 33%), 0 0.5rem 1rem hsl(180, 69%, 79%);
   margin-inline-end: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ios-button:hover {
+  background-color: hsl(171, 68%, 35%);
 }
 
 .mac-button {
@@ -51,6 +57,12 @@
   border-radius: 5rem;
   font-weight: 600;
   box-shadow: 0 0.2rem 0 hsl(233, 57%, 55%), 0 0.5rem 1rem hsl(233, 66%, 83%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.mac-button:hover {
+  background-color: hsl(233, 56%, 46%);
 }
 
 .button-container {
@@ -228,13 +240,26 @@
 .footer-text {
   text-align: start;
   margin-block-end: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-text:hover {
+  color: hsl(171, 66%, 44%);
 }
 
 .footer-text-1 {
   text-align: start;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-text-1:hover {
+  color: hsl(171, 66%, 44%);
 }
 
 .social-icons {
   display: grid;
   grid-template-columns: 3rem 3rem 3rem;
 }
+
