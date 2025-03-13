@@ -11,7 +11,7 @@ button {
 }
 
 body {
-  background-image: url(/image-container/bg-header-desktop.png);
+  background-image: url(../image-container/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -29,7 +29,7 @@ section {
 /*media quary for body*/
 @media (max-width: 600px) {
   body {
-    background: url(/image-container/bg-header-mobile.png);
+    background: url(../image-container/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
