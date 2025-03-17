@@ -14,6 +14,7 @@ body {
   background-image: url(../image-container/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  /* back */
 }
 
 * {
@@ -23,7 +24,6 @@ body {
 
 section {
   display: grid;
-  align-items: center;
 }
 
 /*media quary for body*/
