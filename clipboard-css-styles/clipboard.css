@@ -1,8 +1,3 @@
-/* .main-container {
-  display: grid;
-  justify-content: center;
-} */
-
 .first-phase {
   padding-inline-start: 2rem;
   padding-inline-end: 2rem;
@@ -21,15 +16,18 @@
 }
 
 .hero-header {
-  /* font-size: 2.5rem; */
   font-size: 2.5vh; 
   margin-block-end: 1rem;
+}
+
+.hero-text-container {
+  max-width: 37rem;
 }
 
 .hero-body {
   margin-block-end: 2rem;
   color: hsl(201, 11%, 66%);
-  width: 37rem;
+  width: 100%;
   line-height: 1.5rem;
 }
 
@@ -74,9 +72,13 @@
   font-size: 2rem;
 }
 
+.second-hero-body-container {
+  max-width: 40rem;
+}
+
 .second-hero-body {
   color: hsl(201, 11%, 66%);
-  width: 40rem;
+  width: 100%;
   line-height: 1.5rem;
   margin-block-start: 1rem;
 }
@@ -106,6 +108,14 @@
   color: hsl(201, 11%, 66%);
 }
 
+.computer-image-container {
+  max-width: 40rem;
+}
+
+.computer-image {
+  width: 100%;
+}
+
 /*third section*/
 .second-phase {
   margin-inline-start: 15rem;
@@ -127,17 +137,23 @@
   grid: 1fr;
   justify-items: center;
   margin-block-end: 3rem;
+  max-width: 37rem;
 }
 
 .third-section-body {
   color: hsl(201, 11%, 66%);
   margin-block-start: 1rem;
-  width: 37rem;
+  width: 100%;
   line-height: 1.5rem;
 }
 
 .devices-image-container {
   text-align: center;
+  max-width: 80rem;
+}
+
+.devices-image {
+  width: 100%;
 }
 
 /*fourth section*/
@@ -189,7 +205,11 @@
 }
 
 .company-logos {
-  text-align: center;
+  max-width: 10rem;
+}
+
+.company-logo-one {
+  width: 100%;
 }
 
 /*sixth section*/
@@ -209,11 +229,12 @@
 .sixth-text-body {
   margin-block-start: 1rem;
   color: hsl(201, 11%, 66%);
-  width: 38rem;
+  width: 100%;
 }
 
 .sixth-text-container {
   margin-block-end: 3rem;
+  max-width: 38rem;
 }
 
 /*seventh section*/

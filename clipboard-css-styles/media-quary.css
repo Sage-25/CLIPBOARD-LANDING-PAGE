@@ -1,116 +1,61 @@
-@media (max-width: 665px) {
-  .ios-button {
-    margin-inline-end: 0;
-    margin-block-end: 2rem;
-    padding: 1rem 6rem;
+@media (max-width: 860px) {
+  .second-section {
+    grid-template-columns: none;
+    justify-items: center;
+  }
+
+  .first-phase {
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
   }
 
   .button-container {
     display: grid;
     grid-template-rows: 1fr;
   }
-}
 
-@media (max-width: 1338px) {
-  .second-section {
-    gap: 3rem;
+  .ios-button {
+    margin-block-end: 1.5rem;
+    margin-inline-end: 0;
+    padding: 1rem 7rem;
   }
+  
 
-  .computer-image {
-    width: 35rem;
-  }
-
-  .fifth-section {
-    grid: none;
-  }
-}
-
-@media (max-width: 1072px) {
-  .second-section {
-    gap: 3rem;
-  }
-
-  .second-header-container {
-    gap: 3rem;
-  }
-
-  .workflow-icons {
-    grid: none;
-  }
-}
-
-@media (max-width: 926px) {
-  .second-section {
-    grid-template-columns: none;
-    justify-items: center;
-  }
-
-  .second-section-header {
-    text-align: center;
-  }
-
+  .second-section-header,
   .second-section-body {
     text-align: center;
   }
-}
 
-@media (max-width: 1231px) {
   .second-phase {
-    margin-inline-start: 5rem;
-    margin-inline-end: 5rem;
-  }
-}
-
-@media (max-width: 740px) {
-  .second-phase{
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
-}
 
-@media (max-width: 1331px) {
-  .devices-image {
-    width: 40rem;
-  }
-}
-
-@media (max-width: 939px) {
-  .devices-image {
-    width: 35rem;
-  }
-}
-
-
-@media (max-width: 766px) {
-  .devices-image {
-    width: 30rem;
-  }
-}
-
-@media (max-width: 1095px) {
-  .seventh-section {
-    padding: 3rem 5rem;
-  }
-}
-
-@media (max-width: 870px) {
-  .seventh-section {
-    padding: 3rem 3rem;
+  .workflow-icons {
     grid-template-columns: none;
+  }
+
+  .fifth-section {
+    grid-template-columns: none;
+  }
+
+  .seventh-section {
+    grid-template-columns: none;
+    padding: 3rem 1.5rem;
     justify-items: center;
   }
 
   .footer-second-section {
     grid-template-columns: none;
-    justify-items: center;
-    margin-block-end: 1rem;
+    text-align: center;
   }
 
   .huddle-logo-footer {
-    margin-block-end: 2rem;
+    margin-block-end: 1.5rem;
   }
-
-  .footer-container {
+  
+  .footer-text-1 {
+    text-align: center;
     margin-block-end: 1rem;
   }
 
@@ -118,7 +63,9 @@
     text-align: center;
   }
 
-  .footer-text-1 {
-    text-align: center;
+  .social-icons {
+    margin-block-start: 1.5rem;
+    justify-items: center;
+    grid-template-columns: 5rem 5rem 5rem;
   }
 }
